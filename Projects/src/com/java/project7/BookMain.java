@@ -2,6 +2,7 @@ package com.java.project7;
 
 public class BookMain {
 	static void display(BookStore bs) {
+		//private Author a;
 		System.out.println("Book type : " + bs.getbName());
 		System.out.println("Book Author name : " + bs.getAr());
 		System.out.println("Book price : " + bs.getPrice());
