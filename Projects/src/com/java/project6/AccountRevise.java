@@ -1,5 +1,5 @@
 package com.java.project6;
-
+/*We are creating account class*/
 import java.util.Scanner;
 
 public class AccountRevise  {

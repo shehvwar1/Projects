@@ -44,14 +44,6 @@ public class ArraysEquilityCheck {
 		{
 			System.out.println(arr2[j]);
 		}
-		if(arr1.equals(arr2))
-		{
-			System.out.println("Arrays are equal");
-		}
-		else
-		{
-			System.out.println("Arrays are not equal");
-		}
 	}
 
 }
