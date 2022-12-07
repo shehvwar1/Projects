@@ -91,7 +91,8 @@ public class BookStoreMainExample {
 				while(i.hasNext())
 				{
 					BookStoreExample bse = i.next();
-					if(bse.getAur().equals(baur))
+					AuthorExample ae = new AuthorExample();
+					if((bse.getAur().getaName()).equals(baur))
 					{
 						System.out.println(bse);
 						found1 = true;
