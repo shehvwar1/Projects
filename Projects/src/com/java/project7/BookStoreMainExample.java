@@ -48,7 +48,7 @@ public class BookStoreMainExample {
 				break;
 			case 2:
 				//displaying all books
-				System.out.println("---------------------------------------------------");
+				System.out.println("---------------------------------------------------");	
 				//Iterator
 				Iterator<BookStoreExample> i = c.iterator();
 				while(i.hasNext())
