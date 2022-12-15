@@ -1,5 +1,6 @@
 package com.java.project2;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArraysEquilityCheck {
@@ -43,6 +44,20 @@ public class ArraysEquilityCheck {
 		for(int j=0; j<num2;j++)
 		{
 			System.out.println(arr2[j]);
+		}
+		
+		System.out.println("************************");
+		//System.out.println(arr1);
+//		num1 = arr1.length;
+//		num2 = arr2.length;
+		if(Arrays.equals(arr1, arr2))
+		//if(num1==num2)
+		{
+			System.out.println("Both arrays are equal");
+		}
+		else
+		{
+			System.out.println("Arrays are not equal");
 		}
 	}
 
