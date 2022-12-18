@@ -44,7 +44,7 @@ class fibbonacciseriesTest {
 	 @Test
 	 public void testWithSix()
 	 {
-		 assertEquals(8,fs.fibbonacciSeries(6),"fibbonacci series for number 6 is 8");
+		 assertEquals(5,fs.fibbonacciSeries(5),"fibbonacci series for number 6 is 8");
 	 }
 	 @AfterAll
 	 public static void cleanUp()
