@@ -77,7 +77,7 @@ public class BookMain {
 				break;
 			case 5:
 				System.out.println("Enter the price of book to be searched");
-				 price =Double.parseDouble(br.readLine());
+				  price =Double.parseDouble(br.readLine());
 				 bdo.searchRecordByItsPrice(price);
 			}
 				
