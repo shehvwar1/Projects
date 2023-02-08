@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #ddd;
+    
+}
+.container
+{
+    max-width: 700px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    padding: 25px  30px;
+    background-color: #cad8db;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px lightgrey;
+}
+.later-ltr
+{
+    color: brown;
+}
+.init-lr
+{
+    color: #537273;
+}
+.container .title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.container .title::before{
+content: '';
+position: absolute;
+height: 3px;
+width: 30px;
+background: brown;
+left: 25%;
+bottom: 0;
+}
+.container form .student__details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+form .student__details .input__box
+{
+    margin: 10px 0 12px 0;
+    width: calc(100% /2 - 20px);
+}
+form .student__details .input__box .details
+{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+form .student__details .input__box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+form .gender__details .gender__title
+{
+    font-size: 20px;
+    font-style: 500;
+}
+form .gender__details .category
+{
+    width: 80%;
+    margin: 14px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.gender__details .category  label{
+    display: flex;
+    align-items: center;
+}
+.gender__details .category .dot{
+    height: 10px;
+    width: 10px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+
+}
+#dot__1:checked ~.category label .one{
+border-color: #fff;
+background: #537273;
+
+
+}
+#dot__2:checked ~.category label .two{
+    border-color: #fff;
+    background: #537273;
+    
+    
+    }
+    #dot__3:checked ~.category label .three{
+        border-color: #fff;
+        background: #537273;
+        
+        
+        }
+form input[type="radio"]{
+    display:none ;
+}
+.btn a{
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #537273;
+    color:#fff ;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.btn a:hover{
+    background: brown;
+}
