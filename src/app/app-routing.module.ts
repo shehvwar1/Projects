@@ -12,7 +12,7 @@ const routes: Routes = [
   {path:'getHospitalById/:hospitalId', component:ViewDetailsComponent},
   {path:'updateHospitalRecords/:hospitalId', component:HospitalUpdateComponent}
 ];
-
+//required mOdules
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
