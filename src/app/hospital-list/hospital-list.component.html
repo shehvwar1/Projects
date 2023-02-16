@@ -1,0 +1,32 @@
+<table class="table table-striped table-warning">
+  <thead class="table-primary">
+    <tr>
+      <th>Hospital Id</th>
+      <th>Hospital Name</th>
+      <th>Address</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let hospitals of hospital">
+      <td>{{ hospitals.hospitalId }}</td>
+      <td>{{ hospitals.hospitalName }}</td>
+      <td>{{ hospitals.address }}</td>
+      <td>
+        <button
+          (click)="updateHospitalRecord(hospitals.hospitalId)"
+          class="btn btn-info"
+        >
+          Update
+        </button>
+        <button
+          (click)="deleteHospitalRecord(hospitals.hospitalId)"
+          class="btn btn-danger"
+          style="margin-left: 10px"
+        >
+          Delete
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
