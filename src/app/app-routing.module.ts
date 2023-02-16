@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CreateHospitalComponent } from './create-hospital/create-hospital.component';
 import { HospitalListComponent } from './hospital-list/hospital-list.component';
+
 import { HospitalUpdateComponent } from './hospital-update/hospital-update.component';
 import { ViewDetailsComponent } from './view-details/view-details.component';
 
